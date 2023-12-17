@@ -146,7 +146,7 @@ div i {
   font-size: 14px;
   cursor: pointer;
 }
-.p1 {
+.underline {
   border-bottom: solid 3px #2474ff;
   padding-bottom: 5px;
 }
@@ -162,6 +162,7 @@ div i {
   align-items: start;
   gap: 15px;
   width: 250px;
+  cursor: pointer;
 }
 .poster {
   width: 250px;
@@ -175,4 +176,177 @@ div i {
 }
 .list-film p {
   color: white;
+}
+/* sp */
+.cont-support h1 {
+  color: white;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.cont-support {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 100px;
+  gap: 10px;
+}
+.question {
+  background-color: #5a4b96ac;
+
+  width: 1000px;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  align-items: center;
+  font-size: 20px;
+}
+.question:hover {
+  background-color: #4e459b;
+}
+.answer {
+  background-color: #392783ac;
+  width: 1000px;
+  height: 100px;
+  display: none;
+  color: white;
+  text-align: start;
+  padding: 10px 20px;
+}
+.asked-answer {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.question p:first-child {
+  color: white;
+}
+/* end */
+.end {
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+  align-items: center;
+  padding: 0px 50px;
+}
+.end p {
+  color: white;
+  font-size: 13px;
+  text-align: center;
+}
+.conv {
+  margin-top: 100px;
+  display: flex;
+  gap: 50px;
+}
+.conv p i {
+  font-size: 30px;
+}
+.more-infor {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 100px;
+}
+.more-infor p {
+  color: white;
+  font-size: 11px;
+}
+.more-infor2 {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 15px;
+}
+.more-infor2 {
+  color: white;
+  font-size: 11px;
+}
+.close {
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 12px;
+  text-align: center;
+}
+/* thefilm */
+.main-content {
+  width: 1535px;
+  height: 640px;
+  margin-top: 72px;
+  position: absolute;
+}
+.main-content .fill {
+  content: none;
+  background-color: #ffffff;
+  width: 1535px;
+  height: 500px;
+  position: relative;
+  margin-top: -500px;
+  background: linear-gradient(
+    180deg,
+    #030c4000 0%,
+    #030c400a 16%,
+    #030c4021 29%,
+    #030c4042 41%,
+    #030c406b 51%,
+    #030c4094 61%,
+    #030c40bd 70%,
+    #030c40de 79%,
+    #030c40f5 89%,
+    #030c40ff 100%
+  );
+}
+
+.main-content img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.logo-film {
+  width: 360px;
+  height: 360px;
+  position: relative;
+  margin-left: 595px;
+  margin-top: 340px;
+}
+.logo-film img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.stream-watch {
+  position: relative;
+  display: flex;
+  gap: 10px;
+  margin-left: 540px;
+  margin-top: -90px;
+}
+.stream-watch .Goto {
+  background-color: white;
+  width: 230px;
+  height: 50px;
+
+  border-radius: 30px;
+  margin-top: 5px;
+  font-weight: 500;
+  font-size: 16px;
+}
+.stream-watch .Watch {
+  border: 1px solid white;
+  width: 230px;
+  height: 50px;
+  border-radius: 30px;
+  color: white;
+  font-weight: 500;
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.stream-watch .Watch i {
+  font-size: 12px;
 }
